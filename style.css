@@ -16,6 +16,8 @@
     --grey:#bababa
     --of-white:#faf8f7
     --just-white: #ffff
+    --blue: #2c5545
+    --mi-color: #ff0000;
 }
 *{
     box-sizing: border-box;
@@ -58,5 +60,13 @@ header img{
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: var(--soft-blue)
+    /* color: var() */
+    color: #ffff
+}
+.header--title-container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight:500 ;
+    line-height: 1.8rem;
+    color: #FFE9D4
 }
