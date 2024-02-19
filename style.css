@@ -109,3 +109,30 @@
     max-width: 900px;
     margin: 0 auto;
   }
+  /* Agregamos el fondo de la imagen con CSS, hacemos que no se rompa la imagen cuando se hace mas grande  */
+  .main-exchange-container  .backgroundImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(./assets/img/Bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } 
+  /* Damos estilos al titulo de la seccion el tamaño el grosor y el espacio de interlineado */
+  .main-exchange-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+  }
+  /*Damos estilo el pequeño parrafo de la seccion */
+  .main-exchange-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+  }
