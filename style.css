@@ -403,3 +403,23 @@
     margin: 0 auto;
     margin-bottom: 10px;
   }
+/* ---------------------Bitcoin image container--------------------- */
+.bitcoin-img-container{
+  background-image: url(./assets/img/bitcoinbaby\ 1.png);
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.bitcoin-img-container h2{
+  padding-top: 60px;
+  font-size: 2.3rem;
+  line-height: bold;
+  color: var(--off-white);
+}
+/* ----------------Seccion de planes------------------------- */
