@@ -292,3 +292,8 @@
     color: var(--warm-black);
   }
 
+/* ------------------Seccion de beneficios-------------------- */
+
+.main-product-detail{
+  background-color: var(--warm-black);
+}
