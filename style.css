@@ -566,6 +566,6 @@ footer ul{
   gap: 30px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-  
+  scroll-snap-type: x proximity;  
 }
+
